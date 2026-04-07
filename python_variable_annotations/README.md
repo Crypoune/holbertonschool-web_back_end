@@ -27,6 +27,12 @@ This project focuses on using type annotations in Python to improve code readabi
 7. Complex types - string and int/float to tuple
 8. Complex types - functions
 
+### Duck Typing
+
+9. Let's duck type an iterable object
+
 ### Advanced
 
-9. Let's duck type an iterable objectÒ
+1. Duck typing - first element of a sequence
+2. More involved type annotations
+3. Type Checking
