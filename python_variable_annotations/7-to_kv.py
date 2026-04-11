@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Module that provides a function to create a tuple with a string and the square of a number."""
+"""
+Module that provides a function to create a tuple
+with a string and the square of a number.
+"""
 from typing import Union, Tuple
 
 
