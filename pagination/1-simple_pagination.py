@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Simple pagination"""
-from typing import Tuple
-from typing import List
+from typing import Tuple, List
 import csv
 import math
 
@@ -35,6 +34,8 @@ class Server:
         return self.__dataset
 
     def get_page(self, page: int = 1, page_size: int = 10) -> List[List]:
+        """Return the appropriate page of the dataset
+        """
         assert isinstance(page, int) and page > 0
         assert isinstance(page_size, int) and page_size > 0
         start, end = index_range(page, page_size)
