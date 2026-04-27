@@ -9,3 +9,5 @@ This repository contains backend projects completed during my training at Holber
 - python async comprehension
 - pagination
 - nosql
+- ES6_basic
+- ES6_classes
